@@ -8,7 +8,7 @@ Requirements and recommended versions:
 
 Python (3.10.13)
 
-pytorch (3.10.13)
+pytorch (1.12.1)
 
 torch-geometric (2.3.1)
 
