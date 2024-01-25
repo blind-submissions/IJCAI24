@@ -4,16 +4,29 @@ This is a temporary repository for the implementation of IJCAI2024 submission 22
 
 ## Requirements
 
-To install requirements:
+Requirements and recommended versions:
 
-```setup
-pip install -r requirements.txt
-```
+Python (3.10.13)
+
+pytorch (3.10.13)
+
+torch-geometric (2.3.1)
+
+Pyhealth (1.1.4)
+
+wandb (optional
+
+## Data Processing
+
+For MIMIC-III and MIMIC-IV: refer to https://pyhealth.readthedocs.io/en/latest/api/datasets.html; 
+
+For CCAE: Run process_ccae.ipynb in the data folder.
+
 
 ## Training & Evaluation
 
 To train the model and baselines in the paper, run this command:
 
-```train
-python train.py --model <TRANS/...> --dataset <mimic3/...>
+```
+python train.py --model <TRANS/Transformer/...> --dataset <mimic3/mimic4/...>
 ```
